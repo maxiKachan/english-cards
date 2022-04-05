@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: liquetion
+  datasource:
+    url: jdbc:postgresql://localhost:5432/english_card
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: root
+  liquibase:
+    change-log: db/changelog/db.changelog-master.yaml
+    enabled: true

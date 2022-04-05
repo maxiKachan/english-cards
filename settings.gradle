@@ -1,3 +1,4 @@
 rootProject.name = 'english-cards'
 
 includeBuild("eureka")
+includeBuild("liquetion")

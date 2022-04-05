@@ -1,0 +1,15 @@
+--liquibase formatted sql
+
+--changeset Maksim Kachan:1
+
+CREATE TABLE USERS
+(
+    ID BIGINT,
+    FIRST_NAME VARCHAR(30),
+    LAST_NAME VARCHAR(30),
+    BIRTHDAY DATE,
+    REGISTRATION_DATE DATE,
+    PRIMARY KEY (ID)
+);
+
+CREATE SEQUENCE USERS_SEC START WITH 1;
