@@ -3,3 +3,4 @@ rootProject.name = 'english-cards'
 includeBuild("eureka")
 includeBuild("liquetion")
 includeBuild("api-gateway")
+includeBuild("registration-server")
